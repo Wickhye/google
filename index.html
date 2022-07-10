@@ -1,21 +1,61 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>구글 클론코딩</title>
 </head>
 <body>
-<div id="container">
-  <h1><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></h1>
-  <div id="searcharea">
-    <form action="https://www.google.com/search" method="GET">
-    <input id="search" name="q" type="text" placeholder="Google 검색 또는 URL 입력">
-    <input id="button" type="submit" value="search">
-    </form>
-  </div>
-</div>
+
+  <header class="header">
+    <div class="top_left">
+      <a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header">Google 정보</a>
+      <a href="https://store.google.com/KR?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko-KR">스토어</a>  
+    </div>
+    <div class="top_right">
+      <a href="https://accounts.google.com/signin/v2/identifier?hl=ko&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Dko%26sa%3DX%26ved%3D0ahUKEwiMid_t1eX4AhV3plYBHZmiCKsQPAgI&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button id="login" >로그인</button></a>
+      <a><img src="./bento.png"></a>
+      <a href="google.co.kr/imghp?hl=ko&ogbl">image</a>    
+      <a href="https://www.google.com/intl/ko/gmail/about/">Gmail</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main-content">
+      <div class="main-google-logo">
+        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+      </div>
+
+      <form method=GET action="http://www.google.co.kr/search" target="_blank" >
+            <input type=text name=q value="">
+        </form>
+        
+
+      <div class="button-links">
+        <a href="#" class="button-link">Google 검색</a>
+        <a href="#" class="button-link2">I'm Feeling Lucky</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      대한민국
+    </div>
+    <hr>
+    <div class="footer-left">
+        <a href="#">광고</a>
+        <a href="#">비즈니스</a>
+        <a href="#">검색의 원리</a>
+    </div>
+    <div class="footer-right">
+        <a href="#">설정</a>
+        <a href="#">약관</a>
+        <a href="#">개인정보처리방침</a>
+    </div>
+
+  </footer>
+
 </body>
 </html>
-
